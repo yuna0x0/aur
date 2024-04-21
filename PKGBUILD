@@ -1,7 +1,7 @@
 # Maintainer: Edison Lee <edisonlee@edisonlee55.com>
 pkgname=cirno-catch-frog
 pkgver=1.0.3
-pkgrel=4
+pkgrel=5
 pkgdesc="Touhou fan game made with Godot. Let's help Cirno catch frogs!"
 arch=('x86_64')
 url="https://edisonlee55.itch.io/cirno-catch-frog"
@@ -25,7 +25,7 @@ b2sums=('3ac177a4f27e59d0684d95f7e53a989c34b3231a8af2d69fd3540d452864f08a70e6cce
 )
 
 prepare() {
-	gendesk -n --pkgname "${pkgname}" --pkgdesc "${pkgdesc}" --name "Cirno Catch Frog" --categories "Game"
+	gendesk -n -f --pkgname "${pkgname}" --pkgdesc "${pkgdesc}" --name "Cirno Catch Frog" --categories "Game"
 }
 
 package() {
