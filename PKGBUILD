@@ -1,7 +1,7 @@
 # Maintainer: Edison Lee <edisonlee@edisonlee55.com>
 pkgname=cirno-catch-frog
 pkgver=1.0.3
-pkgrel=6
+pkgrel=7
 pkgdesc="Touhou fan game made with Godot. Let's help Cirno catch frogs!"
 arch=('x86_64')
 url="https://edisonlee55.itch.io/cirno-catch-frog"
@@ -29,9 +29,9 @@ prepare() {
 }
 
 package() {
-	install -D -t "${pkgdir}/opt/edisonlee55/${pkgname}/" CirnoCatchFrog-Linux_${arch}-${pkgver}/*
+	install -D -t "${pkgdir}/opt/${pkgname}/" CirnoCatchFrog-Linux_${arch}-${pkgver}/*
 	install -d "${pkgdir}/usr/bin/"
-	ln -sf "/opt/edisonlee55/${pkgname}/CirnoCatchFrog.${arch}" "${pkgdir}/usr/bin/${pkgname}"
+	ln -sf "/opt/${pkgname}/CirnoCatchFrog.${arch}" "${pkgdir}/usr/bin/${pkgname}"
 
 	install -Dm644 "${pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
 	install -Dm644 "${pkgname}_icon.png" "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
