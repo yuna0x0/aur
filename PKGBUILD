@@ -1,19 +1,19 @@
-# Maintainer: Edison Lee <edisonlee@edisonlee55.com>
+# Maintainer: yuna0x0 <yuna@yuna0x0.com>
 pkgname=cirno-catch-frog
 pkgver=1.0.3
-pkgrel=7
+pkgrel=8
 pkgdesc="Touhou fan game made with Godot. Let's help Cirno catch frogs!"
 arch=('x86_64')
-url="https://edisonlee55.itch.io/cirno-catch-frog"
+url="https://yuna0x0.itch.io/cirno-catch-frog"
 license=('custom')
 makedepends=('gendesk')
 options=(!strip !debug)
 source=(
-	https://cdn.edisonlee55.com/projects/${pkgname}/releases/v${pkgver}/CirnoCatchFrog-Linux_${arch}-${pkgver}.zip{,.sig}
-	https://cdn.edisonlee55.com/projects/${pkgname}/releases/v${pkgver}/${pkgname}_icon.png{,.sig}
+	https://cdn.yuna0x0.com/projects/${pkgname}/releases/v${pkgver}/CirnoCatchFrog-Linux_${arch}-${pkgver}.zip{,.sig}
+	https://cdn.yuna0x0.com/projects/${pkgname}/releases/v${pkgver}/${pkgname}_icon.png{,.sig}
 )
 validpgpkeys=(
-	'449F38F5CDD85C58FCCB5B196C8EAF0D90FD8E80' # Edison Lee <edisonlee@edisonlee55.com>
+	'449F38F5CDD85C58FCCB5B196C8EAF0D90FD8E80' # yuna0x0 <yuna@yuna0x0.com>
 )
 sha256sums=('c2c51cd5dcd591a4f5dee6e80e9e480e09a19719a4e8202db79517d2092d4963'
 	'SKIP'
