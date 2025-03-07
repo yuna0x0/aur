@@ -1,5 +1,8 @@
 # Maintainer: yuna0x0 <yuna@yuna0x0.com>
 
+# Based on the 'papermc' AUR package by:
+## Maintainer: Gordian Edenhofer <gordian.edenhofer@gmail.com>
+
 pkgname=paper-velocity
 # curl -X GET "https://api.papermc.io/v2/projects/velocity" -H  "accept: application/json"
 _pkgver=3.4.0-SNAPSHOT
