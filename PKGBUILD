@@ -2,10 +2,9 @@
 
 _fname=line-seed-tw
 pkgbase="${_fname}-font"
-provides=("${pkgbase}")
 pkgname=("otf-${_fname}" "ttf-${_fname}")
 pkgver=1.30
-pkgrel=1
+pkgrel=2
 pkgdesc='LINE Seed TW font'
 arch=(any)
 url='https://seed.line.me'
@@ -18,12 +17,12 @@ package_otf-line-seed-tw() {
   pkgdesc+=' (OTF)'
   cd "$(find -maxdepth 1 -mindepth 1 -type d -name 'LINE Seed TW*' -print)"
   install -Dm644 -t "${pkgdir}/usr/share/licenses/${pkgname}" license.txt
-  install -Dm644 -t "${pkgdir}/usr/share/fonts/${_fname}" OTF/*.otf
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}" OTF/*.otf
 }
 
 package_ttf-line-seed-tw() {
   pkgdesc+=' (TTF)'
   cd "$(find -maxdepth 1 -mindepth 1 -type d -name 'LINE Seed TW*' -print)"
   install -Dm644 -t "${pkgdir}/usr/share/licenses/${pkgname}" license.txt
-  install -Dm644 -t "${pkgdir}/usr/share/fonts/${_fname}" TTF/*.ttf
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}" TTF/*.ttf
 }
