@@ -1,7 +1,7 @@
 # yuna0x0's Arch User Repository (AUR) Packages
 This repository contains package sources for AUR packages maintained by [yuna0x0](https://aur.archlinux.org/packages?K=yuna0x0&SeB=m) using [aurpublish](https://github.com/eli-schwartz/aurpublish).
 
-# Setup
+## Setup
 Steps to set up environment for maintaining AUR packages with `aurpublish`:
 
 1. **Install `aurpublish`**:
@@ -20,7 +20,7 @@ cd yuna0x0-aur
 aurpublish setup
 ```
 
-# License
+## License
 Visit each package's directory for specific license information.
 
 Package sources that are created by yuna0x0 follow Arch Linux [RFC 40](https://rfc.archlinux.page/0040-license-package-sources/), which are licensed under [0BSD](https://spdx.org/licenses/0BSD.html).
