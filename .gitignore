@@ -1,0 +1,11 @@
+*.tar*
+*.tgz
+*.zip
+
+*.asc
+*.sig
+
+*.log
+
+*/src/
+*/pkg/
