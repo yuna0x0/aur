@@ -1,12 +1,12 @@
 # Maintainer: yuna0x0 <yuna@yuna0x0.com>
 pkgname=obsidian2web-git
-pkgver=1.4.0.r37.gfd0ad40
+pkgver=1.4.0.r39.gc59c144
 pkgrel=1
 pkgdesc="lun-4's obsidian publish knockoff that generates (largely static) websites (git version)"
 arch=('x86_64')
 url="https://github.com/lun-4/obsidian2web"
 license=('MIT')
-provides=('obsidian2web')
+provides=("obsidian2web=$pkgver-$pkgrel")
 conflicts=('obsidian2web' 'obsidian2web-bin')
 makedepends=('git' 'anyzig')
 source=("$pkgname::git+https://github.com/lun-4/obsidian2web.git")
