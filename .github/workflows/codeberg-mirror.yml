@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
-      - uses: yesolutions/mirror-action@master
+      - uses: yuna0x0/mirror-action@master
         with:
           REMOTE: "ssh://git@codeberg.org/${{ github.repository }}.git"
           GIT_SSH_PRIVATE_KEY: ${{ secrets.CODEBERG_SSH_PRIVATE_KEY }}
