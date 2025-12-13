@@ -23,6 +23,6 @@ aurpublish setup
 ## License
 Visit each package's directory for specific license information.
 
-Package sources that are created by yuna0x0 follow Arch Linux [RFC 40](https://rfc.archlinux.page/0040-license-package-sources/), which are licensed under [0BSD](https://spdx.org/licenses/0BSD.html).
+Package sources that are created by yuna0x0 follow Arch Linux [RFC 40](https://rfc.archlinux.page/0040-license-package-sources/) and [RFC 52](https://rfc.archlinux.page/0052-reuse/), which are licensed under [0BSD](https://spdx.org/licenses/0BSD.html) with [REUSE](https://reuse.software) compliance.
 
 Package sources that are modified from other maintainers might not have a license, due to Arch Linux not having a license for package sources before RFC 40. If there's any question regarding those package sources, please open an issue in this repository.
