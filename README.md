@@ -1,5 +1,5 @@
 # yuna0x0's Arch User Repository (AUR) Packages
-This repository contains package sources for AUR packages maintained by [yuna0x0](https://aur.archlinux.org/packages?K=yuna0x0&SeB=m) using [aurpublish](https://github.com/eli-schwartz/aurpublish).
+This repository contains package sources for AUR packages maintained or co-maintained by [yuna0x0](https://aur.archlinux.org/packages?K=yuna0x0&SeB=m) using [aurpublish](https://github.com/eli-schwartz/aurpublish).
 
 ## Setup
 Steps to set up environment for maintaining AUR packages with `aurpublish`:
