@@ -12,4 +12,18 @@
 */src/
 */pkg/
 
+# makepkg VCS clones
+/docker-credential-atcr/docker-credential-atcr/
+/docker-credential-atcr-git/docker-credential-atcr-git/
+/godots-git/godots/
+/kx-aspe-git/kx-aspe-cli/
+/obsidian2web-git/obsidian2web-git/
+/pds-gatekeeper-git/pds-gatekeeper/
+
+# downloaded sources
+*-LICENSE
+*.svg
+*.desktop
+/obsidian2web-bin/obsidian2web-bin-*
+
 *.jar
